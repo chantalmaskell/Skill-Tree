@@ -37,6 +37,10 @@ LearnTree is currently still in development. Installation steps will be added so
 7. Connect with peers and check out what they are currently learning.
 8. Enjoy the journey of LearnTree as your tree continues to grow and change colour showing how far you've come.
 
+## Tech Stack
+
+The project has been developed using .Net Framework with C# for backend, and React for the frontend.
+
 ## Contributing
 
 If you'd like to contribute, please message me directly.
