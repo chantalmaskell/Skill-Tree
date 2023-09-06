@@ -4,6 +4,9 @@
 
 LearnTree is a web application designed to help users consolidate and organise their learning materials. With LearnTree, users can create a tree-like structure that contain leaves. Leaves are folders created by the user to keep track of what they want to learn, such as data types or Object-Oriented Programming (OOP). Users can add articles, books, online courses, and other resources to these leaves, making it easy to manage and access learning materials in one place.
 
+## Version 1.0 Design
+![image](https://github.com/chantalmaskell/Skill-Tree/assets/94926420/88c3c624-adf2-4b3f-8ba0-32335df19400)
+
 ## Features
 
 ### 1. Tree-like Structure
