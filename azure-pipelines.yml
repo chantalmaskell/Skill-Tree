@@ -15,7 +15,12 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: NuGetToolInstaller@1
+- script: |
+    docker build -t skill-tree-app:$(Build.BuildId) .
+    docker login -u $(ACRUsername) -p $(ACRPassword) myacr.azurecr.io
+    docker tag skill-tree-app:$(Build.BuildId) myacr.azurecr.io/skill-tree-app:$(Build.BuildId)
+    docker push myacr.azurecr.io/skill-tree-app:$(Build.BuildId)
+  displayName: 'Build and Push Docker Image'
 
 - task: NuGetCommand@2
   inputs:
