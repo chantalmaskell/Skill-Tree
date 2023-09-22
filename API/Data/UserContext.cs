@@ -1,5 +1,6 @@
 using Models;
 using Microsoft.EntityFrameworkCore;
+using API.Data;
 
 namespace Data {
     public class UserContext : DbContext {
